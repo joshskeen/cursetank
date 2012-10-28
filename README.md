@@ -10,9 +10,7 @@ A ruby & curses based fishtank for your terminal!
 
 Fire up a terminal (max window preferred) and run "cursetank"
 
-
-<iframe src="http://player.vimeo.com/video/52319135" width="600" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
+[Video of what it looks like](https://vimeo.com/52319135)
 
 ## Contributing
 
