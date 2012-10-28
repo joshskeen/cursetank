@@ -1,10 +1,9 @@
-require "cursetank/version"
-require 'cursetank/tank_objects/basic_fish'
-require 'cursetank/tank_objects/octopus'
-require 'cursetank/tank_objects/bubble'
-require 'cursetank/tank_objects/plant'
+require "cursetank/tank_objects/basic_fish"
+require "cursetank/tank_objects/octopus"
+require "cursetank/tank_objects/bubble"
+require "cursetank/tank_objects/plant"
 
-require 'curses'
+require "curses"
 
 module Cursetank
   include Curses
