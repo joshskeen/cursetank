@@ -1,6 +1,7 @@
 #####
 ##### cursetank!
 #####
+require 'cursetank/tank_objects/tank_object'
 module Cursetank
   class Bubble < TankObject
 

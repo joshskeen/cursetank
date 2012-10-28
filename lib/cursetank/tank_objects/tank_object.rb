@@ -2,6 +2,7 @@
 ##### cursetank!
 #####
 #base class for tank objects
+module Cursetank
   class TankObject
 
     def initialize(args={})
@@ -31,3 +32,4 @@
     end
 
   end
+end

@@ -1,7 +1,8 @@
 #####
 ##### cursetank!
 #####
-require './cursetank/tank_objects/tank_object'
+require 'cursetank/tank_objects/tank_object'
+module Cursetank
   class BasicFish < TankObject
 
     def initialize(args={})
@@ -43,3 +44,4 @@ require './cursetank/tank_objects/tank_object'
     end
 
   end
+end

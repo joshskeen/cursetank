@@ -1,7 +1,8 @@
 #####
 ##### cursetank!
 #####
-require './cursetank/tank_objects/tank_object'
+require 'cursetank/tank_objects/tank_object'
+module Cursetank
 class Plant < TankObject
 
   MAX_PLANT_HEIGHT = 14
@@ -95,4 +96,5 @@ class Plant < TankObject
     @swin.refresh()
   end
 
+end
 end

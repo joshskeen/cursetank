@@ -1,8 +1,7 @@
 require "cursetank/version"
-require 'cursetank/basic_fish'
-require './cursetank/tank_object'
-require './cursetank/bubble'
-require './cursetank/plant'
+require 'cursetank/tank_objects/basic_fish'
+require 'cursetank/tank_objects/bubble'
+require 'cursetank/tank_objects/plant'
 
 require 'curses'
 
@@ -56,7 +55,7 @@ module Cursetank
       plantcount.times do | p |
         rand_x = rand(150)
         plant_height = rand(1..Plant::MAX_PLANT_HEIGHT)
-        plantlife << Cursetank::Plant.new({window: @win, pos_x: rand_x, plant_height: plant_height})
+        plantlife << Plant.new({window: @win, pos_x: rand_x, plant_height: plant_height})
       end
       plantlife
     end
