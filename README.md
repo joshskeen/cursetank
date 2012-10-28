@@ -8,7 +8,7 @@ A ruby & curses based fishtank for your terminal!
 
 ## Usage
 
-Fire up a terminal (max window preferred) and run "cursetank"
+After running gem install cursetank, Fire up a terminal (max window preferred) and type "cursetank"
 
 [Video of what it looks like](https://vimeo.com/52319135)
 
