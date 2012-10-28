@@ -1,26 +1,18 @@
 # Cursetank
 
-TODO: Write a gem description
+A ruby & curses based fishtank for your terminal!
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'cursetank'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install cursetank
 
 ## Usage
 
-TODO: Write usage instructions here
+Fire up a terminal (max window preferred) and run "cursetank"
 
 ## Contributing
+
+New Species requests/ASCII art are gladly accepted!!!
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
