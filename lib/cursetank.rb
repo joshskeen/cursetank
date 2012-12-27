@@ -15,23 +15,13 @@ module Cursetank
     end
 
     def main
-      @plantlife_back = setup_plantlife
-      @fishes = setup_fishes
-      @octopuses = setup_octopuses
-      @plantlife_front = setup_plantlife
+      tank_objects_collection = [setup_plantlife, setup_fishes, setup_octopuses, setup_plantlife]
       @bubbles = []
       loop do
-        @plantlife_back.each do | p |
-          p.draw
-        end
-        @fishes.each do | f |
-          f.draw
-        end
-        @octopuses.each do | o |
-          o.draw
-        end
-        @plantlife_front.each do | p |
-          p.draw
+        tank_objects_collection.each do | tank_objects |
+          tank_objects.each do | tank_object |
+            tank_object.draw
+          end
         end
         generate_bubbles
         @bubbles.each do | b |
